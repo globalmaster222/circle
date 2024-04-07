@@ -1,0 +1,84 @@
+.page__testimonials {
+}
+.testimonials {
+   padding-top: 100px;
+}
+.testimonials__container {
+   max-width: 974px !important; 
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+  
+}
+
+
+.testimonials__content {
+   max-width: 172px;
+   margin-right: 121px;
+}
+.testimonials__above-title {
+}
+.above-title {
+}
+.testimonials__title {
+   line-height: 1.3;
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+.testimonials__button {
+   padding: 10px 20px;
+   background: #0cbbc7;
+   font-weight: 700;
+   color: #fff;
+   transition: background .2s, color .2s;
+}
+.testimonials__button:hover{
+   background: transparent;
+   border: 1px solid #0cbbc7;
+   color: #0cbbc7;
+}
+
+
+.testionials__image-body {
+   display: flex;
+   position: relative;
+}
+.testimonials__img {
+   border-radius: 5px;
+}
+.testimonials__image-pause {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+.testimonials__pay-pal {
+}
+.pay-pal {
+   position: absolute;
+   bottom: 0;
+   left: 293px;
+   width: 358px;
+   height: 239px;
+   background: #edfeff;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+.pay-pal__img {
+}
+.pay-pal__description {
+   margin: 20px 0;
+   max-width: 270px;
+   line-height: 1.62;
+   color: #676767;
+}
+.pay-pal__autor {
+   font-size: 14px;
+   line-height: 143%;
+   color: #333;
+}
+.pay-pal__autor span {
+   font-weight: 700;
+}

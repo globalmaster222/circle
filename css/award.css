@@ -1,0 +1,48 @@
+.page__award {
+}
+.award {
+   padding-top: 100px;
+   padding-bottom: 200px;
+}
+.award__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.award__header {
+}
+.award__above-title {
+}
+.above-title {
+}
+.award__title {
+   margin-top: 10px;
+}
+
+.award__cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 60px;
+   margin-top: 61px;
+}
+.award__card {
+}
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+   width: 261px;
+   height: 259px;
+   transition: background 0.4s, transform 0.4s;
+}
+.card__title {
+   max-width: 171px;
+   font-weight: 700;
+   line-height: 162%;
+   margin-top: 10px;
+}

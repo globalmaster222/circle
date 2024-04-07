@@ -1,0 +1,53 @@
+.page__solution {
+}
+.solution {
+   padding: 200px 0;
+}
+.solution__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.solution__content {
+   max-width: 360px;
+   margin-right: 154px;
+}
+.solution__title {
+}
+.solution__text {
+   margin-top: 15px;
+   margin-bottom: 33px;
+   line-height: 162%;
+   color: #676767;
+}
+.solution__btn-more {
+   padding: 10px 20px;
+   background: #0cbbc7;
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+   margin-right: 20px;
+   transition: color .2s, background .2s;
+}
+.solution__btn-more:hover{
+   background: transparent;
+   border: 1px solid #0cbbc7;
+   color: #0cbbc7;
+   padding: 9px 19px;
+}
+.solution__btn-consultation {
+   padding: 9px 19px;
+   border: 1px solid #0cbbc7;
+   font-weight: 700;
+   font-size: 14px;
+   color: #0cbbc7;
+   transition: color .2s, background .2s;
+}
+.solution__btn-consultation:hover{
+   background: #0cbbc7;
+   color: #fff;
+}
+
+.solution__image {
+}

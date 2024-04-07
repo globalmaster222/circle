@@ -1,0 +1,51 @@
+.page__promise {
+}
+.promise {
+   padding-top: 48px;
+   padding-bottom: 100px;
+}
+
+.promise__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 153px;
+}
+
+.promise__content {
+}
+.promise__above-title {
+   margin-bottom: 10px;
+}
+.above-title {
+}
+.promise__title {
+   margin-bottom: 20px;
+}
+.promise__description {
+   line-height: 162%;
+   color: #676767;
+}
+#prmise__descrip-1{
+   margin-bottom: 26px;
+}
+#prmise__descrip-2{
+   margin-bottom: 50px;
+}
+.promise__button {
+   padding: 14px 20px;
+   background: #0cbbc7;
+   font-weight: 700;
+   letter-spacing: 0.01em;
+   color: #fff;
+   transition: color 0.2s, background-color 0.2s;
+}
+.promise__button:hover{
+   border: 1px solid #0cbbc7;
+   color: #0cbbc7;
+   background-color: transparent;
+}
+
+.promise__image {
+   border-radius: 10px;
+}

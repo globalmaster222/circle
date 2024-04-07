@@ -1,0 +1,81 @@
+.page__resources {
+}
+.resources {
+   position: relative;
+}
+.resources__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.resources__header {
+   text-align: center;
+   margin-bottom: 50px;
+}
+.resources__above-title {
+   margin-bottom: 10px;
+}
+.above-title {
+}
+.resources__title {
+}
+
+
+.resources__cards {
+   display: flex;
+   gap: 32px;
+}
+.resources__card {
+   padding: 40px 35px 60px 35px;
+   width: 359px;
+   border-radius: 4px;
+   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.03);
+   background: #fff;
+}
+.card-resources {
+}
+.card-resources__img {
+   margin-bottom: 25px;
+   border-radius: 4px;
+}
+.card-resources__content {
+}
+.card-resources__title {
+   margin-bottom: 11px;
+}
+.card-resources__text {
+   line-height: 157%;
+   color: #676767;
+}
+#card-resources__1{
+   margin-bottom: 22px;
+}
+#card-resources__2{
+   margin-bottom: 25px;
+
+}
+.card-resources__button {
+   padding: 10px 20px;
+   background: #0cbbc7;
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+}
+.card-resources__button:hover{
+   background: transparent;
+   border: 1px solid #0cbbc7;
+   color: #0cbbc7;
+}
+
+
+.resources__bg {
+   position: absolute;
+   bottom: -100px;
+   left: 0;
+   width: 100%;
+   height: 445px;
+   background: #edfeff;
+   z-index: -1;
+}
